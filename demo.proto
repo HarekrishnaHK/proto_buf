@@ -1,0 +1,16 @@
+edition = "2023";
+package demotut;
+
+
+
+message Flower{
+    float sepal_length = 1;
+    float sepal_width = 2;
+    float petal_length = 3;
+    float petal_width = 4;
+}
+
+message pred {
+    float confidence = 1;
+    string predclass = 2;
+}
